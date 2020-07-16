@@ -1,5 +1,0 @@
-<SendAccessLogRequest>
-	<Header>
-    	<RequestID>A1234</RequestID>
-    </Header>
-</SendAccessLogRequest>
