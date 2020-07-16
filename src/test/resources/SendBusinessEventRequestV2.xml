@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sen:SendBusinessEventRequest
+  xmlns:sen="http://com/abnamro/ecs/dataingestionservice/sendbusinesseventservice/v2/SendBusinessEventRequest">
+  <sen:Header>
+    <sen:RequestID>eb31bac4-89c0-4e88-9b06-9834a9ed6f3e</sen:RequestID>
+    <sen:DateTime>2018-08-02T07:25:36.611+02:00</sen:DateTime>
+    <sen:Source>SSCd</sen:Source>
+  </sen:Header>
+  <sen:Body>
+    <sen:BusinessEvent>
+      <sen:Name>sendBus</sen:Name>
+      <sen:DateTime>2018-08-02T07:25:36.615+02:00</sen:DateTime>
+    </sen:BusinessEvent>
+    <!--Optional: -->
+    <sen:Payment>
+      <!--Optional: -->
+      <sen:GlobalPaymentID>1234</sen:GlobalPaymentID>
+      <!--Optional: -->
+      <sen:LocalRefs>
+        <!--0 to 5 repetitions: -->
+        <sen:LocalRef>
+          <sen:ID>123</sen:ID>
+          <sen:Source>123</sen:Source>
+        </sen:LocalRef>
+      </sen:LocalRefs>
+      <!--Optional: -->
+      <sen:ProductType>SCT</sen:ProductType>
+      <!--Optional: -->
+      <sen:UrgentIndicator>false</sen:UrgentIndicator>
+      <!--Optional: -->
+      <sen:SalaryIndicator>false</sen:SalaryIndicator>
+      <!--Optional: -->
+      <sen:Amount>
+        <sen:Value>10000</sen:Value>
+        <sen:Currency>INR</sen:Currency>
+      </sen:Amount>
+      <!--Optional: -->
+      <sen:Debtor>
+        <!--Optional: -->
+        <sen:Name>QASend</sen:Name>
+        <!--Optional: -->
+        <sen:AccountNr>987654321</sen:AccountNr>
+        <!--Optional: -->
+        <sen:Bank>
+          <!--Optional: -->
+          <sen:BIC>NL45ABNA</sen:BIC>
+          <!--Optional: -->
+          <sen:Country>IN</sen:Country>
+          <!--Optional: -->
+          <sen:Name>QADebitor</sen:Name>
+          <!--Optional: -->
+          <sen:Address>DbitorAddress</sen:Address>
+        </sen:Bank>
+      </sen:Debtor>
+      <!--Optional: -->
+      <sen:Creditor>
+        <!--Optional: -->
+        <sen:Name>QATest</sen:Name>
+        <!--Optional: -->
+        <sen:Address>TestAddress</sen:Address>
+        <!--Optional: -->
+        <sen:AccountNr>123456789</sen:AccountNr>
+        <!--Optional: -->
+        <sen:Bank>
+          <!--Optional: -->
+          <sen:BIC>NL45ABNA</sen:BIC>
+          <!--Optional: -->
+          <sen:Country>IN</sen:Country>
+          <!--Optional: -->
+          <sen:Name>QA</sen:Name>
+          <!--Optional: -->
+          <sen:Address>CN231,BO,AQTEST</sen:Address>
+        </sen:Bank>
+      </sen:Creditor>
+      <!--Optional: -->
+      <sen:RemittanceInfo>Test</sen:RemittanceInfo>
+    </sen:Payment>
+    <!--Optional: -->
+    <sen:User>
+      <!--Optional: -->
+      <sen:ID>AOL231</sen:ID>
+      <!--Optional: -->
+      <sen:Customer>
+        <!--Optional: -->
+        <sen:ID>CISO</sen:ID>
+        <!--Optional: -->
+        <sen:Name>CISO_ECS</sen:Name>
+      </sen:Customer>
+      <!--Optional: -->
+      <sen:ThirdParty>
+        <!--Optional: -->
+        <sen:ID>c4236</sen:ID>
+        <!--Optional: -->
+        <sen:Name>IBM</sen:Name>
+      </sen:ThirdParty>
+      <!--Optional: -->
+      <sen:AccessMeans>
+        <!--Optional: -->
+        <sen:AuthenticationType>boundPIN5</sen:AuthenticationType>
+        <!--Optional: -->
+        <sen:IdentificationID>ibmwasuser</sen:IdentificationID>
+      </sen:AccessMeans>
+    </sen:User>
+    <!--Optional: -->
+    <sen:Channel>
+      <!--Optional: -->
+      <sen:Code>202</sen:Code>
+    </sen:Channel>
+    <!--Optional: -->
+    <sen:Device>
+      <!--Optional: -->
+      <sen:Vendor>Apple</sen:Vendor>
+      <!--Optional: -->
+      <sen:Model>LG-H910</sen:Model>
+      <!--Optional: -->
+      <sen:OS>Windows</sen:OS>
+      <!--Optional: -->
+      <sen:Jailbroot>true</sen:Jailbroot>
+    </sen:Device>
+    <!--Optional: -->
+    <sen:Agent>
+      <!--Optional: -->
+      <sen:Name>QAAgent</sen:Name>
+      <!--Optional: -->
+      <sen:Version>1.1</sen:Version>
+      <!--Optional: -->
+      <sen:Bound>1</sen:Bound>
+      <!--Optional: -->
+      <sen:TrackingIDs>
+        <!--0 to 5 repetitions: -->
+        <sen:TrackingID>
+          <sen:Name>QATest</sen:Name>
+          <sen:ID>100</sen:ID>
+        </sen:TrackingID>
+      </sen:TrackingIDs>
+      <!--Optional: -->
+      <sen:SessionID>101</sen:SessionID>
+    </sen:Agent>
+    <!--Optional: -->
+    <sen:HttpRequest>
+      <!--Optional: -->
+      <sen:ReceivedDateTime>2018-08-02T07:25:36.616+02:00
+      </sen:ReceivedDateTime>
+      <!--Optional: -->
+      <sen:RemoteAddress>10.21.7.140</sen:RemoteAddress>
+      <!--Optional: -->
+      <sen:RequestLine>
+        <!--Optional: -->
+        <sen:Method>GETPOST</sen:Method>
+        <!--Optional: -->
+        <sen:URI>http://VM400009100:14576/services/DataIngestionService/SendBusinessEvent
+        </sen:URI>
+        <!--Optional: -->
+        <sen:HttpVersion>HTTP</sen:HttpVersion>
+      </sen:RequestLine>
+      <!--Optional: -->
+      <sen:RequestHeader>
+        <!--Optional: -->
+        <sen:UserAgent>QARawAgent</sen:UserAgent>
+        <!--Optional: -->
+        <sen:XForwardedFor>Raw X-Forwarded-For</sen:XForwardedFor>
+        <!--Optional: -->
+        <sen:Referer>http://VM400009100:14576/services/DataIngestionService/SendBusinessEvent
+        </sen:Referer>
+        <!--Optional: -->
+        <sen:Cookie>NAME1=OPAQUE_STRING1; NAME2=OPAQUE_STRING2
+        </sen:Cookie>
+        <!--Optional: -->
+        <sen:Cookies>
+          <!--0 to 50 repetitions: -->
+          <sen:Cookie>
+            <sen:Name>SenderName</sen:Name>
+            <sen:Value>QATest</sen:Value>
+          </sen:Cookie>
+        </sen:Cookies>
+        <!--Optional: -->
+        <sen:CorrelationID>1234567</sen:CorrelationID>
+      </sen:RequestHeader>
+      <!--Optional: -->
+      <sen:Response>
+        <!--Optional: -->
+        <sen:HttpVersion>1.1</sen:HttpVersion>
+        <!--Optional: -->
+        <sen:StatusCode>202</sen:StatusCode>
+        <!--Optional: -->
+        <sen:ReasonPhrase>Done</sen:ReasonPhrase>
+      </sen:Response>
+    </sen:HttpRequest>
+  </sen:Body>
+</sen:SendBusinessEventRequest>

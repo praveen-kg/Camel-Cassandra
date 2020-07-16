@@ -1,0 +1,107 @@
+<SendBusinessEventRequest xmlns="http://com/abnamro/ecs/dataingestionservice/sendbusinesseventservice/v2/SendBusinessEventRequest">
+								<Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest>
+								<Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest> <Header><RequestID>16f17dd3-994d-4895-9efe-fb3d23877ba8</RequestID><DateTime>2019-07-03T14:56:59.829+02:00</DateTime><Source>BA607</Source></Header><Body>
+								<BusinessEvent><Name>submit_recurring_payment</Name><DateTime>2019-07-03T14:56:59.829+02:00</DateTime></BusinessEvent><Payment><ProductType>recurring_payment</ProductType><Amount>
+								<Value>12.00</Value><Currency>EUR</Currency></Amount><Debtor><Name>INTITULE 109</Name><AccountNr>FR7630788001000166925000494</AccountNr></Debtor><Creditor><Name>BENEFICIAIRE 105</Name>
+								<AccountNr>FR7630788001001070539470030</AccountNr></Creditor></Payment><User><ID>FR01@BVZSCR29</ID><Customer><ID>FR01@BVZSCR29</ID>
+								</Customer><AccessMeans><AuthenticationType>Mobile Key</AuthenticationType>
+								<IdentificationID>GAEM0008439C</IdentificationID></AccessMeans></User><Device><Vendor>HUAWEI</Vendor><Model>VTR-L09</Model><OS>Android</OS></Device><Agent><Version>1.9.0</Version>
+								<Bound>true</Bound><TrackingIDs><TrackingID><Name>unique_app_id</Name><ID>57a96278-abde-4193-81a2-e728035430ee</ID>
+								</TrackingID></TrackingIDs><SessionID>1_2_1_C6-4EmFRmQZhxSyluLPZV7j6AyOLEaKTzlT28EyjBKQOeyNF</SessionID></Agent><HttpRequest><ReceivedDateTime>2019-07-03T14:56:59.829+02:00</ReceivedDateTime>
+								<RemoteAddress>10.122.16.93</RemoteAddress><RequestHeader><UserAgent>okhttp/3.9.1</UserAgent></RequestHeader></HttpRequest></Body></SendBusinessEventRequest>

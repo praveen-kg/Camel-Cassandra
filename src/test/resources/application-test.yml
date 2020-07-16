@@ -1,0 +1,106 @@
+camel.springboot.name: DataHubIntegrationServicesCamel
+spring:
+  profiles:
+    active: test
+schema.validation.enabled: true
+management:
+  server.port: 0
+services:
+  sendbusinessevent:
+    jms.enabled: false
+    http.enabled: true
+cxf.logging.enabled: false
+kafka:
+  host: localhost
+  port: 9092
+  sbevent.topic: Feedzai-Topic
+
+jmscamel:
+    config:
+        sendMalwareAlert:
+            destination:
+                camelKafkaOptions:
+                    brokers: vm400006710.nl.eu.abnamro.com:9093,vm400006720.nl.eu.abnamro.com:9093
+                    compressionCodec: none
+                    enableIdempotence: false
+                    headerFilterStrategy: '#jmsHeaderFilterStrategy'
+                    maxBlockMs: 5000
+                    metadataMaxAgeMs: 5000
+                    requestRequiredAcks: 1
+                    requestTimeoutMs: 10000
+                    retries: 0
+                    securityProtocol: SSL
+                    sslEndpointAlgorithm: HTTPS
+                    sslKeyPassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslKeystoreLocation: ${user.dir}/src/main/resources/dhi-server-test.jks
+                    sslKeystorePassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslTruststoreLocation: ${user.dir}/src/main/resources/dhi-server-test-truststore.jks
+                    sslTruststorePassword: 41e2f334-a2e7-462f-a283-9e285d235532
+                topic: ecs.sendMalwareAlertV1
+            routeId: sendMalwareAlert
+            source:
+                camelJmsOptions:
+                    concurrentConsumers: 2
+                    jmsMessageType: Text
+                    transacted: true
+                options:
+                    schema:
+                        url: validator:classpath:xsd/MalwareAlert/IFDSMalwareInterface.xsd
+                queue: DHI.SENDMALWAREALERT_REQ.AI
+
+        sendAtmPosTrx:
+            destination:
+                camelKafkaOptions:
+                    brokers: vm400006710.nl.eu.abnamro.com:9093,vm400006720.nl.eu.abnamro.com:9093
+                    compressionCodec: none
+                    enableIdempotence: false
+                    maxBlockMs: 5000
+                    metadataMaxAgeMs: 5000
+                    requestRequiredAcks: 1
+                    requestTimeoutMs: 10000
+                    retries: 0
+                    securityProtocol: SSL
+                    sslEndpointAlgorithm: HTTPS
+                    sslKeyPassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslKeystoreLocation: ${user.dir}/src/main/resources/dhi-server-test.jks
+                    sslKeystorePassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslTruststoreLocation: ${user.dir}/src/main/resources/dhi-server-test-truststore.jks
+                    sslTruststorePassword: 41e2f334-a2e7-462f-a283-9e285d235532
+                topic: ecs.sendAtmPosTrxV1
+            routeId: sendAtmPosTrx
+            source:
+                camelJmsOptions:
+                    concurrentConsumers: 2
+                    transacted: true
+                options:
+                    jmsMessageType: Text
+                    schema:
+                        url: validator:classpath:xsd/ATMPos/SendATMPosTrx.xsd
+                queue: DHI.SENDATMPOSTRX_REQ.AI
+# used for SWIFT route testing
+        sendSwiftEvent:
+            routeId: sendSwiftEvent
+            source:
+                camelJmsOptions:
+                    concurrentConsumers: 8
+                    transacted: "true"
+                queue: DHI.SWIFT_REQ.AI
+            destination:
+                topic: ecs.swiftEventV1
+                camelkafkaoptions:
+                    brokers: vm400006710.nl.eu.abnamro.com:9093,vm400006720.nl.eu.abnamro.com:9093
+                    compressionCodec: none
+                    enableIdempotence: false
+                    maxBlockMs: 5000
+                    metadataMaxAgeMs: 5000
+                    requestRequiredAcks: 1
+                    retries: 0
+                    securityProtocol: SSL
+                    sslEndpointAlgorithm: HTTPS
+                    sslKeyPassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslKeystoreLocation: ${user.dir}/src/main/resources/dhi-server-test.jks
+                    sslKeystorePassword: 6013c9a2-e5cc-4f35-aef8-beddd0e01c47
+                    sslTruststoreLocation: ${user.dir}/src/main/resources/dhi-server-test-truststore.jks
+                    sslTruststorePassword: 41e2f334-a2e7-462f-a283-9e285d235532
+                    requestTimeoutMs: 10000
+                    headerFilterStrategy: '#jmsHeaderFilterStrategy'

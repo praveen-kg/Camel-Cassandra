@@ -1,0 +1,42 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 " title="http://maven.apache.org/xsd/settings-1.0.0.xsd">" class="link">http://maven.apache.org/xsd/settings-1.0.0.xsd"> (http://maven.apache.org/xsd/settings-1.0.0.xsd)
+     <servers>
+         <server>
+             <id>java-releases</id>
+             <username>DHI_BUILDER</username>
+             <password>{yZdWzYAxCHcHSID69VZZQnybim5jP/Ph+ZnZa/Tnw6h802ga58LcmkA1nRH+vUec}</password>
+         </server>
+         <server>
+             <id>java-snapshots</id>
+             <username>DHI_BUILDER</username>
+             <password>{yZdWzYAxCHcHSID69VZZQnybim5jP/Ph+ZnZa/Tnw6h802ga58LcmkA1nRH+vUec}</password>
+         </server>
+         <server>
+             <id>java-group</id>
+             <username>DHI_BUILDER</username>
+             <password>{yZdWzYAxCHcHSID69VZZQnybim5jP/Ph+ZnZa/Tnw6h802ga58LcmkA1nRH+vUec}</password>
+         </server>
+     </servers>
+     <profiles>
+         <profile>
+             <id>DHI_BUILDER</id>
+             <activation>
+                 <activeByDefault>true</activeByDefault>
+             </activation> 
+             <repositories>                  
+                 <repository>
+                     <!-- GENERIC JAVA DEPENDENCIES -->
+                     <id>java-group</id>
+                     <name>Generic repository for this project</name>
+                     <layout>default</layout>
+                     <url>https://p-nexus-repo.development.nl.eu.abnamro.com:8443/nexus/content/groups/java-group/</url>
+                     <snapshots>
+                         <enabled>false</enabled>
+                     </snapshots>
+                 </repository>
+             </repositories>                  
+         </profile>
+     </profiles> 
+     <activeProfiles>
+         <activeProfile>DHI_BUILDER</activeProfile>
+     </activeProfiles>
+ </settings>

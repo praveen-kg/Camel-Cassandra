@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:SendATMPosTrxRequest xmlns:tns="http://com/abnamro/ecs/fraudscoringservice/sendatmpostrxrequest/v1/SendATMPosTrx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <RequestID>${__UUID}</RequestID>
+    <DateTime>2030-04-30T12:00:00</DateTime>
+    <Source>DHI_TEST</Source>
+    <DataSource>BAI241-JMETER</DataSource>
+  </Header>
+  <Body>
+    <BusinessEvent>
+      <Name>create</Name>
+      <DateTime>2001-12-31T12:00:00</DateTime>
+    </BusinessEvent>
+<Channel>
+   <Code>AOL</Code>
+</Channel>
+<ATMPosTransaction>
+  <ATMPosTransactionID>12345</ATMPosTransactionID>
+  <TerminalTimestamp>2030-04-30T12:00:00</TerminalTimestamp>
+  <TotalTransactionAmount>0.0</TotalTransactionAmount>
+  <TransactionFees>0.0</TransactionFees>
+  <TerminalAmountTransaction>0.0</TerminalAmountTransaction>
+  <TerminalCurrency>EUR</TerminalCurrency>
+  <PinUsed>true</PinUsed>
+  <PANEntryMode>0</PANEntryMode>
+  <MTI>0</MTI>
+  <ProcessingClass>0</ProcessingClass>
+  <ResponseCode>0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789</ResponseCode>
+  <MaximumAllowedTransactionAmount>0.0</MaximumAllowedTransactionAmount>
+  <CardActivation>true</CardActivation>
+  <Terminal>
+    <TerminalID>TerminalID</TerminalID>
+    <AcquirerID>AcquirerID</AcquirerID>
+    <CardAcceptorID>CardAcceptorID</CardAcceptorID>
+    <MerchantName>MerchantName</MerchantName>
+    <MCC>MCC</MCC>
+    <PINEntryCapability>0</PINEntryCapability>
+    <Address>Address</Address>
+    <City>City</City>
+    <Country>NLD</Country>
+    <PostalCode>2012 ES</PostalCode>
+  </Terminal>
+  <Card>
+    <ID>ID</ID>
+    <PaymentArrangementID>PaymentArrangementID</PaymentArrangementID>
+    <PAN>PAN</PAN>
+    <CardSequenceNumber>123</CardSequenceNumber>
+    <DPAN>DPAN</DPAN>
+    <Type>Type</Type>
+    <Status>Status</Status>
+    <ActivationDate>2019-04-30</ActivationDate>
+    <ExpirationDate>2030-04-30</ExpirationDate>
+    <RequestDate>2030-04-30</RequestDate>
+    <OriginalEquipmentManufacturerID>OriginalEquipmentManufacturerID</OriginalEquipmentManufacturerID>
+    <TrustedServiceManagerID>TrustedServiceManagerID</TrustedServiceManagerID>
+    <GeoProfile>GeoProfile</GeoProfile>
+    <OfflineRemainingPinTries>OfflineRemainingPinTries</OfflineRemainingPinTries>
+    <TransactionCounter>0</TransactionCounter>
+  </Card>
+  <BankAccount>
+    <AccountNumber>0123456789</AccountNumber>
+    <Currency>EUR</Currency>
+        <Balance>
+		<Amount>5.12</Amount>
+		<DateTime>2001-12-31T12:00:00</DateTime>
+		<Overdraft>5.0</Overdraft>
+		<AvailableFunds>10.0</AvailableFunds>
+	</Balance>
+  </BankAccount>
+</ATMPosTransaction>
+</Body>
+</tns:SendATMPosTrxRequest>
